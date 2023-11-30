@@ -6,7 +6,7 @@ const NotFound = () => {
     return (
         <>
             <Head>
-                <title>404 Page Not Found</title>
+                <title>404 Pagina no encontrada</title>
             </Head>
 
             <div className="about-uspage full-w pyblock-80">
@@ -16,15 +16,15 @@ const NotFound = () => {
                     </div>
                     <div className="contant_box_404">
                         <h3 className="h4 font-semibold text-blue-500">
-                            The page you requested could not be found.
+                             No se pudo encontrar la página que solicitó.
                         </h3>
 
-                        <p className='text-base mb-4  font-semibold'>Click the button below to go back to the Homepage.</p>
+                        <p className='text-base mb-4  font-semibold'>Haga clic en el botón de abajo para volver a la página de inicio.</p>
 
                         <div className='d-inline-block'>
                             <Link href="/">
                                 <a className="btn btn-site btn-block ripple-effbtn py-3 px-4">
-                                    <span>Back to Home</span>
+                                    <span>De vuelta a casa</span>
                                 </a>
                             </Link>
                         </div>

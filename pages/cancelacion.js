@@ -89,24 +89,24 @@ const Cancelacion = () => {
                 titleTwo={`Preguntas`}
                 FaqLists={[
                     {
-                        'title': 'When will you fly from Panama to Nassau,Bahamas ?',
-                        'content': 'According to the Copa Airlines destinations guide section, flights from Panama to Nassau should start from January 7, 2021. The detailed information about the flight deals is available at destinationsguide.copaair.com/en/flights-from-panama-to-nassau.'
+                        'title': '¿Cuándo volarás de Panamá a Nassau, Bahamas?',
+                        'content': 'Según la sección de la guía de destinos de Copa Airlines, los vuelos de Panamá a Nassau deberán iniciar a partir del 7 de enero de 2021. La información detallada sobre las ofertas de vuelos está disponible en destinosguide.copaair.com/es/vuelos-de-panama-a-nassau .'
                     },
                     {
-                        'title': 'How do I create an account to get Copa miles?',
-                        'content': 'As stated at copaair.com, to join ConnectMiles you should create an account having providing personal information on the company website. To earn miles, just provide your ConnectMiles number when booking flights. When you check in for your flight, confirm that your ConnectMiles number appears on your boarding pass, and make sure that the name on your boarding pass matches the name associated with your ConnectMiles account.'
+                        'title': '¿Cómo creo una cuenta para obtener millas Copa?',
+                        'content': 'Como se indica en copaair.com, para unirse a ConnectMiles debe crear una cuenta proporcionando información personal en el sitio web de la empresa. Para ganar millas, simplemente proporcione su número ConnectMiles al reservar vuelos. Cuando realice el check-in para su vuelo, confirme que su número de ConnectMiles aparezca en su tarjeta de embarque y asegúrese de que el nombre en su tarjeta de embarque coincida con el nombre asociado con su cuenta ConnectMiles.'
                     },
                     {
-                        'title': 'Hello, I have question. May I ask when we get to Panama?',
-                        'content': 'Because our flight was canceled. Date flight 17.3.2020 number CM 505 Thank you for answer.'
+                        'title': 'Hola, tengo una pregunta. ¿Puedo preguntar cuándo llegaremos a Panamá?',
+                        'content': 'Porque nuestro vuelo fue cancelado. Fecha del vuelo 17.3.2020 número CM 505 Gracias por la respuesta.'
                     },
                     {
-                        'title': 'Can I modify my flight tickets after booking?',
-                        'content': 'Yes, Alitalia allows you to select and reserve your seat during booking or afterwards through the My Bookings section of their website There may be an additional fee for choosing certain seats.'
+                        'title': '¿Puedo modificar mis billetes de avión después de la reserva?',
+                        'content': 'Sí, Alitalia le permite seleccionar y reservar su asiento durante la reserva o posteriormente a través de la sección Mis reservas de su sitio web. Puede haber una tarifa adicional por elegir ciertos asientos.',
                     },
                     {
-                        'title': 'How can I change my flight reservation with Copa Airlines?',
-                        'content': 'You can change or modify your reservation with Copa Airlines online. To do so, log in to your official website, enter your booking number and last name, and select “Manage My Booking”. From there, you can select the “Change Flight” option to modify your itinerary as needed.'
+                        'title': '¿Cómo puedo cambiar mi reserva de vuelo con Copa Airlines?',
+                        'content': 'Puedes cambiar o modificar tu reserva con Copa Airlines en línea. Para hacerlo, inicia sesión en tu sitio web oficial, ingresa tu número de reserva y apellido, y selecciona “Gestionar mi reserva”. Desde allí, puede seleccionar la opción "Cambiar vuelo" para modificar su itinerario según sea necesario.'
                     }
                 ]}
             />

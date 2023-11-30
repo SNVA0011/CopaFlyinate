@@ -33,11 +33,11 @@ const ServicioAlcliente = () => {
 
 
                         <div className='quieren-block'>
-                            <h3 class="como-un-title kl mt-0">Copa Airlines Phone Numbers and Emails</h3>
+                            <h3 class="como-un-title kl mt-0">Números de teléfono y correos electrónicos de Copa Airlines</h3>
 
                             <div className='vuelo-wrap row'> 
                                 <div className='vuelo-wcol'>
-                                    <h4 class="como-un-vuelo mb-ops"> 1.) Copa Airlines Email: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
+                                    <h4 class="como-un-vuelo mb-ops"> 1.) Correo electrónico de Copa Airlines: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
                                     {ListEmailcopa && <ul className='steps-listcall p-0 d-flex flex-wrap'>
                                         {ListEmailcopa.map((item, index) => {
                                             return (
@@ -58,7 +58,7 @@ const ServicioAlcliente = () => {
                                 </div>
 
                                 <div className='vuelo-wcol'> 
-                                    <h4 class="como-un-vuelo mb-ops"> 2.) Toll-Free Number: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
+                                    <h4 class="como-un-vuelo mb-ops"> 2.) Número gratuito: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
                                     {ListTollfree && <ul className='steps-listcall p-0 d-flex flex-wrap'>
                                         {ListTollfree.map((item, index) => {
                                             return (
@@ -81,7 +81,7 @@ const ServicioAlcliente = () => {
                             </div>
 
 
-                            <h4 class="como-un-vuelo mb-ops pt-3"> 3.) Sales/ Reservations: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
+                            <h4 class="como-un-vuelo mb-ops pt-3"> 3.) Ventas/Reservas: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
                             {ListSalesNumber && <ul className='steps-listcall p-0 d-flex flex-wrap'>
                                 {ListSalesNumber.map((item, index) => {
                                     return (
