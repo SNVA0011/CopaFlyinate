@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://copa-aerolineas.flyinate.com/sitemap.xml
+
+ 
