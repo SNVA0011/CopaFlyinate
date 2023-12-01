@@ -16,78 +16,7 @@ export default function Enginebox(props) {
                 <h1><span className='d-block d-sm-inline-block d-xl-block'>Donde haría</span> ¿Te gusta ir? <i className="bi bi-airplane-fill"></i></h1>
                 <p>Descubre tu próxima gran aventura</p>
               </div>
-              <form className='where-doyou-form'>
-                <ul className="row g-3 align-items-center">
-                  <li className="col-md-6 col-12 mb-3">
-                    <input type="text"
-                      className="form-control"
-                      placeholder="Desde la ciudad o aeropuerto" />
-                  </li>
-                  <li className="col-md-6 col-12 mb-3">
-                    <input type="text"
-                      className="form-control"
-                      placeholder="A ciudad o aeropuerto" />
-                  </li>
-                  <li className="col-xl col-md-6 col-12 mb-3 datepickercity-col">
-                    <div className="input-group">
-                      <div className="input-group-prepend">
-                        <span className="input-group-text">
-                          <i className="bi bi-calendar2-minus"></i>
-                        </span>
-                      </div>
-                      <input
-                        type="text"
-                        className="form-control datepickercity checkin"
-                        placeholder="Registrarse"
-                      />
-                    </div>
-                  </li>
-                  <li className="col-xl col-md-6 col-12 mb-3 datepickercity-col">
-                    <div className="input-group">
-                      <div className="input-group-prepend">
-                        <span className="input-group-text">
-                          <i className="bi bi-calendar2-minus"></i>
-                        </span>
-                      </div>
-                      <input
-                        type="text"
-                        className="form-control datepickercity checkout"
-                        placeholder="Verificar"
-                      />
-                    </div>
-                  </li>
-                  <li className="col-xl col-md-6 col-12 mb-3">
-                    <select
-                      name="Adults"
-                      required=""
-                      className="form-control nice-selectround wide"
-                    >
-                      <option value="">Adultos</option>
-                      <option value={1}>1 Adulto</option>
-                      <option value={2}>2 Adulto</option>
-                      <option value={3}>3 Adulto</option>
-                    </select>
-                  </li>
-                  <li className="col-xl col-md-6 col-12 mb-3">
-                    <select
-                      name="Childrens"
-                      required=""
-                      className="form-control nice-selectround wide">
-                      <option value="">Para niños</option>
-                      <option value={1}>1 Niños</option>
-                      <option value={2}>2 Niños</option>
-                      <option value={3}>3 Niños</option>
-                    </select>
-                  </li>
-                  <li className="col-xl col-12 mb-3">
-                    <div className="avail-thefform">
-                      <button type="submit" className="btn btn-site btn-block ripple-effbtn">
-                        <span>Reservar ahora</span>
-                      </button>
-                    </div>
-                  </li>
-                </ul>
-              </form>
+             
             </div>
           </Col>
           <Col xs={12} xl={3} className='align-self-end'>

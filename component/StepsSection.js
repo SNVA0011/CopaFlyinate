@@ -16,8 +16,8 @@ const StepsSection = ({ swap = false, imgPath, imgTexture, subNumber, subtitle, 
                     <Col col={12} lg={7} xl={7} className='pl-50'>
                         <div className='top-title'>
                             <span className='resvtitle-1'>{subNumber}</span>
-                            <span className='resvtitle-2'>{subtitle}</span>
-                            <h2 className="title">{title}</h2>
+                         
+                            <h2 className="title"><span className='resvtitle-2'>{subtitle}</span> {title}</h2>
                             <p className="description">
                                 {description}
                             </p>

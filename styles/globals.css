@@ -695,7 +695,9 @@ body .quieren-block h3.como-un-title, body .popular-destination.blogaddalist.det
 .quieren-block .vuelo-wcol ul li, body .popular-destination.blogaddalist.details .blog-inner-box2 .quieren-block .vuelo-wcol ul li {
     width: 100%;
 }
-
+body .top-title h2 span.resvtitle-2 {
+    color: #085099;
+}
 
  /* media query  */ 
  
