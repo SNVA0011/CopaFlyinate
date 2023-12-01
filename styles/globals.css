@@ -29,11 +29,12 @@
  body .navtop_callto ul.social-urls a.Fpinterest{ color: #c32225; }
  body .navtop_callto .callmail a .bi, body .navtop_callto .callmail a:hover, body .navtop_callto ul.social-urls a:hover{        color: #085099;}
  body .navtop_callto .callmail a{ color: #544e3a; font-weight: 500; }
- .new_header_area .social-urls li { border-left: solid 1px #efefef; padding-left: 1rem!important; }
+ .new_header_area .social-urls li {border-left: solid 1px #efefef; padding-left: 1rem!important; }
  .new_header_area .social-urls li:first-child{ border-left:0; padding-left: 0!important; }
  body .navtop_callto .callmail .bi.bi-envelope-fill { position: relative; top: 1px; }
- body .enginebanner_sctn{ background: url('/static/images/home-one-banner.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; position: relative; margin-bottom: 40px; -webkit-transform: skewY(2deg); -moz-transform: skewY(2deg); -ms-transform: skewY(2deg); -o-transform: skewY(2deg); transform: skewY(2deg); -webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right; }
- body .enginebanner_sctn .container{position:relative;z-index:2; -webkit-transform: skewY(-2deg); -moz-transform: skewY(-2deg); -ms-transform: skewY(-2deg); -o-transform: skewY(-2deg); transform: skewY(-2deg); -webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right; }
+ body .enginebanner_sctn{background: url('/static/images/home-one-banner.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; 
+    position: relative; margin-bottom: 40px; -webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right; }
+ body .enginebanner_sctn .container{position:relative;z-index:2; -webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right; }
  body .enginebanner_sctn .minh.align-items-center.row{min-height:635px}
  body .enginebanner_sctn .banner-shape-14.w-100{position:absolute;bottom:-1px;left:0;height:80px;z-index:2}
  body .enginebanner_sctn .enginebox { background: 0 0; border-radius: 8px; position: relative; z-index: 3; }
@@ -702,7 +703,7 @@ body .top-title h2 span.resvtitle-2 {
  /* media query  */ 
  
  @media (min-width:1200px){
-     img.travelby-box { position: absolute; max-width: none; right: 0; bottom: 80px; width: 216%; }
+     img.travelby-box { position: absolute; max-width: none; right: 0; bottom: 25px; width: 216%; }
  p.footer_disclaimer_what{ padding-right: 10px; }
  .airportbaggage-wrp{ margin-left: -70px; margin-right: -70px; }
  .como-reservar.ls .resvtitle-1 { top: -90px; left: -38px; }
@@ -719,7 +720,7 @@ body .top-title h2 span.resvtitle-2 {
  .resvtitle-2{ font-size: 30px; }
  .where-doyou-form{ margin-bottom: 0; max-width: 768px; margin-left: auto; margin-right: auto; border-radius: 10px; }
  img.airport-baggage { border-radius: 15px; }
- img.travelby-box { width: auto; margin: 60px auto -40px; display: block; border-radius: 10px; }
+ img.travelby-box { width: auto; margin: 0 auto -40px; display: block; border-radius: 10px; }
  .como-reservar .pl-50 { padding-left: 30px; padding-right: 30px;  }
  .como-reservar .flex-row-reverse .pl-50{ padding-left: 30px; padding-right: 30px; }
  body .new_header_area {
