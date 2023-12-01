@@ -701,7 +701,6 @@ body .top-title h2 span.resvtitle-2 {
 }
 
  /* media query  */ 
- 
  @media (min-width:1200px){
      img.travelby-box { position: absolute; max-width: none; right: 0; bottom: 25px; width: 216%; }
  p.footer_disclaimer_what{ padding-right: 10px; }
