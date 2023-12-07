@@ -24,9 +24,9 @@ const BaggagePolicy = () => {
             <section className='full-w pyblock-80 full-w'>
                 <div className='popular-destination blogaddalist details pscontent-none'>
                     <Container className='blog-inner-box2 content-container'>
-                        <h1 className='mb-4 main-tpl text-center'>Copa Airlines Baggage Policy <img src='/images/arrow-yellow.jpg' /></h1>
+                        <h1 className='mb-4 main-tpl text-center'>Política de equipaje de Copa Airlines <img src='/images/arrow-yellow.jpg' /></h1>
                         <div className='airportbaggage-wrp'>
-                            <img src='/images/baggage-view.jpg' className='airport-baggage' alt='Copa Airlines Baggage Policy' />
+                            <img src='/images/baggage-view.jpg' className='airport-baggage' alt='Política de equipaje de Copa Airlines' />
                         </div>
                         <div className='como-reservar'>
                             <div className='d-flex'>

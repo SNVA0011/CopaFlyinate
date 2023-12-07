@@ -55,7 +55,7 @@
  body .ripple-effbtn::after{content:"";position:absolute;width:100%;height:120%;background:#000;z-index:1;left:-200%;top:-10%;border-radius:0 100px 100px 0}
  body .headerusd-dropdown .dropdown-menu .btn.btn-site.active::after, body .ripple-effbtn:hover::after{left:-20%;width:160%}
  body .btn.btn-site{background: #282828;color:#fff;font-weight:600;border:none;transition:all .6s cubic-bezier(.5, 0, 0, 1.25);-webkit-transition:all .6s cubic-bezier(.5, 0, 0, 1.25);-ms-transition:all .6s cubic-bezier(.5, 0, 0, 1.25);-moz-transition:all .6s cubic-bezier(.5, 0, 0, 1.25);-o-transition:all .6s cubic-bezier(.5, 0, 0, 1.25)}
- body .top-title h2{font-size:36px;position:relative;margin:0;font-weight:700;line-height:1.2;z-index:2;    background-color: rgb(255 255 255 / 60%);}
+ body .top-title h2{font-size:36px;position:relative;margin:0;font-weight:700;line-height:1.2;z-index:2;  }
  body .top-title h2::after, body .top-title h2::before{width:10px;height:55px;position:absolute;left:50%;content:'';background:#efefef;opacity:.4;border-radius:5px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);z-index:-1}
  body .top-title h2::before{top:-9px;margin-left:-13px}
  body .top-title h2::after{bottom:-15px}
@@ -275,7 +275,9 @@
  .domi i.bi.bi-clock { color: #085099; }
  img.call-arrow {
     width: 35px;
-    margin-left: 6px;
+    margin-left: 9px;
+    position: relative;
+    top: 3px;
 }
 body .popular-destination.blogaddalist.details .blog-inner-box2 h4.como-un-vuelo.mb-ops, body h4.como-un-vuelo.mb-ops {
     margin-bottom: 13px;
@@ -292,8 +294,7 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
     margin-top: -20px;
     top: 14px;
 }
-
-
+ 
  /*--------- responsive ---------*/
  @media (min-width:992px){.breadcrumb_area{padding:90px 0}
  body .popular-destination.blogaddalist.details .top-title.text-center h2{font-size:36px} 
@@ -428,7 +429,7 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
  body .enginebox .input-group-text .bi { color: #cbcbcb; font-size: 104%; }
  body .enginebanner_sctn .btn, body .enginebanner_sctn .form-control { font-size: 16px; }
  img.baggage-sobre { max-width: none; margin-top: 24px; margin-right: 16px; }
- .resvtitle-1 { font-size: 140px; color: #fff; text-shadow: 0 0 1px rgb(0 0 0 / 40%); -o-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -moz-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -ms-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -webkit-text-shadow: 0 0 1px rgb(0 0 0 / 40%); position: absolute; top: -76px; left: -31px; }
+ .resvtitle-1 { font-size: 140px; color: #fff; text-shadow: 0 0 1px rgb(0 0 0 / 40%); -o-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -moz-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -ms-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -webkit-text-shadow: 0 0 1px rgb(0 0 0 / 40%); position: absolute; top: -76px; left: -31px; z-index: -1;}
  .resvtitle-2 { position: relative; background-color: rgb(255 255 255 / 60%); z-index: 2; color: #085099; font-weight: 700; font-size: 34px; margin-bottom: 9px; display: block; font-family: 'Dancing Script',cursive,sans-serif; }
  .como-reservar{ position: relative; }
  .como-reservar .pl-50{ padding-left: 30px; }

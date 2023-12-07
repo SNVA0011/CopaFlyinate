@@ -28,14 +28,14 @@ const Cancelacion = () => {
                     <Container className='blog-inner-box2 content-container'>
                         <h1 className='mb-4 main-tpl text-center'>Cancelación  <img src='/images/arrow-yellow.jpg' /></h1>
                         <div className='airportbaggage-wrp'>
-                            <img src='/images/cancellation-policy.jpg' className='airport-baggage' alt='Copa Airlines Baggage Policy' />
+                            <img src='/images/cancellation-policy.jpg' className='airport-baggage' alt='Política de equipaje de Copa Airlines' />
                         </div>
 
 
                         <div className='cancelar-mt-5'>
                             <div className='como-reservar ls'>
                                 <span className="resvtitle-1 de">01</span>
-                                <h3 className='como-un-title kl'>La Política de cancelar un vuelo de Copa Airlines</h3>
+                                <h2 className='como-un-title kl'>La Política de cancelar un vuelo de Copa Airlines</h2>
                                 <StepUlList
                                     listItem={[
                                         <>Según la <b>política de cancelar de Copa Airlines</b>, puede cancelar su vuelo en las 24 horas anteriores a la salida del vuelo sin cargo alguno.</>,
@@ -49,7 +49,7 @@ const Cancelacion = () => {
 
                             <div className='como-reservar ls cancelar-mt-5'>
                                 <span className="resvtitle-1 de">02</span>
-                                <h3 className='como-un-title'>Normas de reembolso un vuelo de Copa Airlines</h3>
+                                <h2 className='como-un-title'>Normas de reembolso un vuelo de Copa Airlines</h2>
                                 <p className='description'>Estas son algunas de las <b>políticas de reembolso de Copa Airlines</b> en las que podrá obtener un reembolso después de cancelar su vuelo.</p>
                                 <StepUlList
                                     listItem={[
@@ -64,7 +64,7 @@ const Cancelacion = () => {
 
                             <div className='como-reservar ls cancelar-mt-5'>
                                 <span className="resvtitle-1 de">03</span>
-                                <h3 className='como-un-title'>La política de mascoteca de Copa Airlines</h3>
+                                <h2 className='como-un-title'>La política de mascoteca de Copa Airlines</h2>
                                 <p className='description'>Si decidas viajar en Copa Airlines con su mascota, por lo que debe saber acerca de la política de mascotas antes de viajar. </p>
                                 <StepUlList
                                     listItem={[

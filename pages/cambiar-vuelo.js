@@ -35,7 +35,7 @@ const CambiarVuelo = () => {
                         <div className='cancelar-mt-5'>
                             <div className='como-reservar ls'>
                                 <span className="resvtitle-1 de">01</span>
-                                <h3 className='como-un-title kl'>¿Cómo cambiar un vuelo a Copa Airlines?</h3>
+                                <h2 className='como-un-title kl'>¿Cómo cambiar un vuelo a Copa Airlines?</h2>
                                 <p className='description'>
                                     A veces los pasajeros han hecho una reserva con Copa Airline, pero por alguna razón no pueden viajar. En ese caso los pasajeros quieren <b>cambiar el vuelo de Copa Airlines</b>. Así que pueden ir a través de los pasos mencionados a continuación para cambiar el vuelo.
                                 </p>
@@ -55,14 +55,14 @@ const CambiarVuelo = () => {
 
                             <div className='como-reservar ls cancelar-mt-5'>
                                 <span className="resvtitle-1 de">02</span>
-                                <h3 className='como-un-title'>¿Cuánto cuesta un cambio de vuelo en Copa Airlines? </h3>
+                                <h2 className='como-un-title'>¿Cuánto cuesta un cambio de vuelo en Copa Airlines? </h2>
                                 <p className='description'>Copa Airlines cobrará por el cambio de vuelo, según su política y dependiendo del tipo de tarifa. Sin embargo, Copa Airlines cobrará un cargo por cambio de aproximadamente US$120 para vuelos nacionales y US$140 para vuelos internacionales.</p>
                             </div>
 
 
                             <div className='como-reservar ls cancelar-mt-5'>
                                 <span className="resvtitle-1 de">03</span>
-                                <h3 className='como-un-title'>¿Cómo cancelar un vuelo en Copa Airlines?</h3>
+                                <h2 className='como-un-title'>¿Cómo cancelar un vuelo en Copa Airlines?</h2>
                                 <p className='description'>Usted puede cancelar el vuelo de Copa Airlines a través de la llamada telefónica.  Basta con llamar a este número <Link href='tel:1786 840 2672'><a target='_blank' className='font-weight-bold'><i className="bi bi-telephone-plus"></i> 1786 840 2672</a></Link> y seguir el ivr para cancelar el vuelo fácilmente. </p>
                                 <StepUlList
                                     listItem={[
@@ -80,14 +80,14 @@ const CambiarVuelo = () => {
 
                             <div className='como-reservar ls cancelar-mt-5'>
                                 <span className="resvtitle-1 de">04</span>
-                                <h3 className='como-un-title'>¿Cómo obtener un reembolso de Copa Airlines?</h3>
+                                <h2 className='como-un-title'>¿Cómo obtener un reembolso de Copa Airlines?</h2>
                                 <p className='description'>Si usted ha comprado el vuelo de Copa Airlines unos días antes y ahora no quiere viajar debido a algunas razones. Entonces usted puede cancelar la lucha <b>y obtener un reembolso de Copa Airlines</b> en la llamada. Para conectar con el equipo de servicio al cliente de la Copa Airlines, y hablar con el asesor en este número <Link href='tel:1786 840 2672'><a target='_blank' className='font-weight-bold'><i className="bi bi-telephone-plus"></i> 1786 840 2672</a></Link> para solicitar un reembolso. Después de cancelar el vuelo obtendrá el reembolso dentro de 7,8 días hábiles en el modo de pago original.</p>
 
-                                <h4 className='como-un-vuelo'>¿Qué pasa si no elijo asiento en un vuelo de Copa? </h4>
+                                <h3 className='como-un-vuelo mb-2'>¿Qué pasa si no elijo asiento en un vuelo de Copa? </h3>
                                 <p>Si no puede seleccionar su asiento durante la reservación, puede <b>seleccionar de asiento de Copa Airlines</b> a través de “gestionar mi reserva”. Si no puede seleccionar su asiento, Copa Airlines le asignará automáticamente un asiento al azar.</p>
 
 
-                                <h4 className='como-un-vuelo'>El proceso de seleccionar de asiento en Copa Airlines</h4>
+                                <h3 className='como-un-vuelo mb-2'>El proceso de seleccionar de asiento en Copa Airlines</h3>
                                 <StepUlList
                                     listItem={[
                                         'Puede ingresar al sitio de Copa Airlines.',
@@ -99,10 +99,10 @@ const CambiarVuelo = () => {
                                 />
 
 
-                                <h4 className='como-un-vuelo pt-3'>¿Cuánto cuesta cambiar la fecha de un vuelo en Copa? </h4>
+                                <h3 className='como-un-vuelo mb-2 pt-3'>¿Cuánto cuesta cambiar la fecha de un vuelo en Copa? </h3>
                                 <p>Copa Airlines el coste por el cambio de vuelo de acuerdo con los boletos de vuelo de los pasajeros y también de acuerdo con la política de cambio de vuelo. Si cambia el vuelo dentro de las 24 horas anteriores a la salida, la aerolínea no cobrará ningún cargo. Después de 24 horas antes del vuelo de salida, <b>cambiar el costo en Copa Airlines</b> pueden ser de $120 para vuelos domésticos y $140 para vuelos internacionales.</p>
 
-                                <h4 className='como-un-vuelo pt-3'>¿Todas sus tarifas aéreas tienen cargos por cambio o cancelación?</h4>
+                                <h3 className='como-un-vuelo mb-2 pt-3'>¿Todas sus tarifas aéreas tienen cargos por cambio o cancelación?</h3>
                                 <p>Copa Airline tiene diferentes tipos de tarifas que permiten a sus pasajeros ajustarse a sus necesidades de viaje. Estas tarifas tienen diferentes cargos por cambio que pueden variar.</p>
 
                             </div>

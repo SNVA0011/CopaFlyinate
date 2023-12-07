@@ -34,11 +34,11 @@ const ServicioAlcliente = () => {
 
 
                         <div className='quieren-block'>
-                            <h3 class="como-un-title kl mt-0">Números de teléfono y correos electrónicos de Copa Airlines</h3>
+                            <h2 class="como-un-title kl mt-0">Números de teléfono y correos electrónicos de Copa Airlines</h2>
 
                             <div className='vuelo-wrap row'> 
                                 <div className='vuelo-wcol'>
-                                    <h4 class="como-un-vuelo mb-ops"> 1.) Correo electrónico de Copa Airlines: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
+                                    <h3 class="como-un-vuelo mb-ops d-flex align-items-center"> 1.) Correo electrónico de Copa Airlines: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h3>
                                     {ListEmailcopa && <ul className='steps-listcall p-0 d-flex flex-wrap'>
                                         {ListEmailcopa.map((item, index) => {
                                             return (
@@ -59,7 +59,7 @@ const ServicioAlcliente = () => {
                                 </div>
 
                                 <div className='vuelo-wcol'> 
-                                    <h4 class="como-un-vuelo mb-ops"> 2.) Número gratuito: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
+                                    <h3 class="como-un-vuelo mb-ops d-flex align-items-center"> 2.) Número gratuito: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h3>
                                     {ListTollfree && <ul className='steps-listcall p-0 d-flex flex-wrap'>
                                         {ListTollfree.map((item, index) => {
                                             return (
@@ -82,7 +82,7 @@ const ServicioAlcliente = () => {
                             </div>
 
 
-                            <h4 class="como-un-vuelo mb-ops pt-3"> 3.) Ventas/Reservas: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h4>
+                            <h3 class="como-un-vuelo mb-ops d-flex align-items-center pt-3"> 3.) Ventas/Reservas: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h3>
                             {ListSalesNumber && <ul className='steps-listcall p-0 d-flex flex-wrap'>
                                 {ListSalesNumber.map((item, index) => {
                                     return (
@@ -105,8 +105,8 @@ const ServicioAlcliente = () => {
                         </div>
 
 
-                        <div className='como-reservar ls'>
-                            <h3 className='como-un-title kl'>¿Cómo llamar al número de teléfono de Copa Airlines? </h3>
+                        <div className='como-reservar ls mt-5'>
+                            <h2 className='como-un-title kl'>¿Cómo llamar al número de teléfono de Copa Airlines? </h2>
                             <p>
                                 La mayoría de los pasajeros que han reservado los billetes de avión de Copa Airlines y se enfrentan a tantas dificultades en su vuelo.
                                 Pero no son capaces de deshacerse de, en ese caso, los pasajeros quieren ponerse en contacto con Copa Airlines para resolver los problemas de vuelo.
@@ -114,7 +114,7 @@ const ServicioAlcliente = () => {
                             </p>
 
 
-                            <h4 className='como-un-vuelo pt-3'>¿Cómo contactar con el servicio de asistencia de Copa Airlines por correo electrónico? </h4>
+                            <h2 className='como-un-vuelo pt-3'>¿Cómo contactar con el servicio de asistencia de Copa Airlines por correo electrónico? </h2>
                             <p>
                                 Copa Airlines ofrece la opción de presentar una queja, hacer una sugerencia,
                                 escribir un comentario o cualquier otra inquietud con respecto al vuelo a
@@ -125,7 +125,7 @@ const ServicioAlcliente = () => {
                                 hora o puede ser más de 48 horas.
                             </p>
 
-                            <h4 className='como-un-vuelo pt-3'>Cómo ponerse en contacto con una persona en vivo de Copa Airlines?</h4>
+                            <h2 className='como-un-vuelo pt-3'>Cómo ponerse en contacto con una persona en vivo de Copa Airlines?</h2>
                             <p className='description'>Para conectar con el ejecutivo al cliente de la Copa Airlines a través de la llamada telefónica. Si usted tiene cualquier tipo de duda o quiere saber acerca de la información de vuelo y obtener la solución, puede llamar al <b>número de Copa Airlines</b> en <Link href='tel:1786 840 2672'><a target='_blank' className='font-weight-bold'><i className="bi bi-telephone-plus"></i> 1786 840 2672</a></Link> y luego puede seguir el ivr .</p>
 
                             <StepUlList
