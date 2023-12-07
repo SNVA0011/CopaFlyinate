@@ -294,6 +294,10 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
     margin-top: -20px;
     top: 14px;
 }
+.como-reservar h1, .como-reservar h2, .como-reservar h3, .como-reservar h4, .como-reservar h5, .como-reservar h6{
+    font-weight: 600;
+    line-height: 1.4;
+}
  
  /*--------- responsive ---------*/
  @media (min-width:992px){.breadcrumb_area{padding:90px 0}
@@ -429,7 +433,7 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
  body .enginebox .input-group-text .bi { color: #cbcbcb; font-size: 104%; }
  body .enginebanner_sctn .btn, body .enginebanner_sctn .form-control { font-size: 16px; }
  img.baggage-sobre { max-width: none; margin-top: 24px; margin-right: 16px; }
- .resvtitle-1 { font-size: 140px; color: #fff; text-shadow: 0 0 1px rgb(0 0 0 / 40%); -o-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -moz-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -ms-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -webkit-text-shadow: 0 0 1px rgb(0 0 0 / 40%); position: absolute; top: -76px; left: -31px; z-index: -1;}
+ .resvtitle-1 { font-size: 120px; color: #fff; text-shadow: 0 0 1px rgb(0 0 0 / 40%); -o-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -moz-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -ms-text-shadow: 0 0 1px rgb(0 0 0 / 40%); -webkit-text-shadow: 0 0 1px rgb(0 0 0 / 40%); position: absolute; top: -76px; left: -31px; z-index: -1;}
  .resvtitle-2 { position: relative; background-color: rgb(255 255 255 / 60%); z-index: 2; color: #085099; font-weight: 700; font-size: 34px; margin-bottom: 9px; display: block; font-family: 'Dancing Script',cursive,sans-serif; }
  .como-reservar{ position: relative; }
  .como-reservar .pl-50{ padding-left: 30px; }
@@ -504,7 +508,7 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
  ul.steps-list.equipaje .bi.ico { color:  #0B9B1E }
  ul.steps-list.equipaje .bi.ico::before{ box-shadow: 0 0 0 0px #ffffff; -webkit-box-shadow: 0 0 0 0px #ffffff; -o-box-shadow: 0 0 0 0px #ffffff; -moz-box-shadow: 0 0 0 0px #ffffff; -ms-box-shadow: 0 0 0 0px #ffffff; }
  body .popular-destination.blogaddalist.details .blog-inner-box2 h3.como-un-title, body h3.como-un-title {    background-color: rgb(255 255 255 / 60%);font-weight: 700; font-size: 24px; margin-bottom: 15px; position: relative; z-index: 2; }
- .cancelar-mt-5 { margin-top: 90px; }
+ .cancelar-mt-5 { margin-top: 70px; }
  h1.main-tpl { color: #085099; }
  h1.main-tpl img {
     width: 60px;
@@ -771,7 +775,7 @@ body .top-title h2 span.resvtitle-2 {
  img.airport-baggage { border-radius: 10px; }
  body .popular-destination, body .pyblock-80{ padding: 50px 0; }
  body .popular-destination.blogaddalist.details .blog-inner-box2 h3.como-un-title, body h3.como-un-title{ font-size: 20px; }
- .cancelar-mt-5 { margin-top: 120px; }
+
 
 p.mb-2.gtinfo img {
     width: 35px;
@@ -788,9 +792,7 @@ p.mb-2.gtinfo img {
  ul.steps-list li span{ font-size: 12px; }
  .resvtitle-1.de {     top: -123px; }
  body .popular-destination, body .pyblock-80{ padding: 40px 0; }
- .cancelar-mt-5 {
-    margin-top: 140px;
-}
+
  ul.steps-list li{ padding-bottom: 25px; }
  .como-reservar .pl-50{ padding-left: 12px; padding-right: 12px; padding-top: 95px; }
  .como-reservar .flex-row-reverse .pl-50{ padding-left: 12px; padding-right: 12px; }
