@@ -687,6 +687,11 @@ body .quieren-block h3.como-un-title, body .popular-destination.blogaddalist.det
     width: 100%;
     font-weight: 500;
     font-size: 15px;
+    transition: none;
+    -o-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -webkit-transition: none;
 }
 .quieren-block ul a:hover {
     color: #085099;
