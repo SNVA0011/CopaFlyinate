@@ -15,10 +15,11 @@ export default function Home() {
   return (
     <>
       <PageHead 
-        title="Flyinate | Book Low Fares Flights Tickets & Rental Cars"
-        description=""
-        keywords=""
+        title="Reserva tu vuelo Copa Airlines a precio barato | Flyinate"
+        description="¿Buscas los precios más bajos para reservar un vuelo con Copa Airlines? Flyinate está aquí para ofrecerte las mejores ofertas para que puedas volar con Copa."
+        keywords="Copa Airlines vuelo barato, reserva Copa Airlines billete de avión, reserva Copa Airlines vuelo con Flyinate, Copa Airlines vuelo barato en Flyinate, tarifas bajas Copa Airlines vuelo, Copa Airlines tarifas bajas reserva de vuelo, reserva Copa Airlines vuelo barato"
       />
+ 
 
       <Enginebox />
 
@@ -59,9 +60,6 @@ export default function Home() {
         otherContent={<><b className='horario'><i className="bi bi-chevron-double-right hor"></i> Horario :-</b> <div className='flex-grow-1'>Puedes comunicarse con el equipo de servicio al cliente de Copa Airlines de lunes a domingo de <span className='d-inline-block domi'><i className="bi bi-clock"></i> 5:00 a.m. a <i className="bi bi-clock"></i> 11:00 a.m</span>. para obtener respuesta inmediata.</div></>}
       />
 
-
-
-
       <StepsSection
         imgPath={'/images/cashback-topay.jpg'}
         imgTexture={'texture-1'}
@@ -77,7 +75,6 @@ export default function Home() {
           'Copa Airlines le permite mantener la reserva durante 24 horas, después de eso, se cancela automáticamente el vuelo.'
         ]}
       />
-
 
       <PopularDestinations />
 

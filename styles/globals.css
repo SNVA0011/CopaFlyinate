@@ -518,13 +518,18 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
 .como-picimg.texture-1.tp img {
     border-radius: 20px;
 }
-
+.siteaccordian.accordion {
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 .accordion.siteaccordian .accordion-item {
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
     background-color: #fff;
-    margin-bottom: 10px;
-    border-radius: 6px;
+    margin-bottom: 1px;
+}
+.accordion.siteaccordian .accordion-item:last-child{
+    box-shadow: none;
 }
 .accordion.siteaccordian .accordion-body,
 .accordion.siteaccordian .accordion-button{
@@ -535,9 +540,10 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
 }
 .accordion.siteaccordian .accordion-body {
     line-height: 1.8;
-    border-top: solid 1px #efefef;
-    color: #656c68;
+    border-top: solid 1px #efefef; 
 }
+
+.accordion.siteaccordian .accordion-body p:last-child,
 .accordion.siteaccordian .accordion-header {
     margin: 0;
 }
@@ -556,7 +562,7 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
 .accordion.siteaccordian .accordion-button i.bi {
     position: absolute;
     right: -28px;
-    font-size: 29px;
+    font-size: 20px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -750,9 +756,7 @@ body .top-title h2 span.resvtitle-2 {
 .accordion.siteaccordian .accordion-button{
     font-size: 16px;
 }
-.accordion.siteaccordian .accordion-button i.bi{
-    font-size: 26px;
-}
+
 .top-title.get-inf-amet {
     margin-bottom: 26px;
 }
@@ -767,15 +771,16 @@ body .top-title h2 span.resvtitle-2 {
  body .popular-destination, body .pyblock-80{ padding: 50px 0; }
  body .popular-destination.blogaddalist.details .blog-inner-box2 h3.como-un-title, body h3.como-un-title{ font-size: 20px; }
  .cancelar-mt-5 { margin-top: 120px; }
- .accordion.siteaccordian .accordion-button i.bi{
-    font-size: 24px;
-}
+
 p.mb-2.gtinfo img {
     width: 35px;
 }
 
 .vuelo-wcol {
     width: 100%; 
+}
+.accordion.siteaccordian .accordion-button{
+    padding-right: 0;
 }
  }
  @media (max-width:575px){ .where-doyou h1{ font-size: 36px; }
@@ -792,6 +797,7 @@ p.mb-2.gtinfo img {
  img.airport-baggage{ border-radius: 6px; }
  .accordion.siteaccordian .accordion-button{
     font-size: 14px;
+    padding-right: 0;
 }
 p.mb-2.gtinfo{
     font-size: 12px;
@@ -832,12 +838,19 @@ p.mb-2.gtinfo{
  .accordion.siteaccordian .accordion-body, .accordion.siteaccordian .accordion-button{
     padding: 15px 12px;
 }
+.accordion.siteaccordian .accordion-button{
+    padding-right: 0;
+}
 .accordion.siteaccordian .accordion-header {
     padding-right: 42px;
 }
-.accordion.siteaccordian .accordion-button i.bi{
-    font-size: 20px;
+.accordion.siteaccordian .accordion-body{
+    line-height: 1.7;
 }
+
  }
  @media (max-width:475px){ .where-doyou h1{ font-size: 32px; }
+ .accordion.siteaccordian .accordion-button i.bi{
+    font-size: 16px;
+}
  }

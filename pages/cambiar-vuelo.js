@@ -13,10 +13,11 @@ const CambiarVuelo = () => {
     return (
         <>
             <PageHead
-                title="Flyinate | Cambiar vuelo"
-                description=""
-                keywords=""
+                title="Copa Airlines Cambio de vuelo | Flyinate"
+                description="¿Desea cambiar su vuelo con Copa Airlines? Obtenga información en Flyinate sobre el procedimiento de cambio de vuelo de Copa Airlines y las últimas políticas."
+                keywords="Cambio de vuelo Copa Airlines, cambiar su vuelo Copa Airlines, cambiar su vuelo Copa Airlines con Flyinate"
             />
+
 
             <BreadHero title="Cambiar vuelo" linkhtml={<><ul className='breadcrumb text-white'>
                 <li className="breadcrumb-item" > <Link href="/">Casa</Link> </li>
@@ -116,30 +117,39 @@ const CambiarVuelo = () => {
             </section>
 
 
+
+
             <FaqsBlock
                 subtitle={`Obtener información`}
                 titleOne={`Frecuentes`}
                 titleTwo={`Preguntas`}
                 FaqLists={[
                     {
-                        'title': '¿Cuándo volarás de Panamá a Nassau, Bahamas?',
-                        'content': 'Según la sección de la guía de destinos de Copa Airlines, los vuelos de Panamá a Nassau deberán iniciar a partir del 7 de enero de 2021. La información detallada sobre las ofertas de vuelos está disponible en destinosguide.copaair.com/es/vuelos-de-panama-a-nassau .'
+                        'title': '¿Puede cambiar su vuelo con Copa Airlines?',
+                        'content': 'Para cambiar su vuelo a Copa Airlines, en primer lugar, vaya a la página web oficial de la aerolínea y, a continuación, acceda a su cuenta. Pulse sobre la opción gestionar reserva para recuperar el billete, introduzca el código de reserva junto con el apellido del viajero. Elija la opción de reserva y pulse la opción de cambio de vuelo para realizar las modificaciones necesarias que se refieren a la fecha, la hora y la clase. A continuación, elija un nuevo billete de avión y pague los cargos necesarios para recibir un correo electrónico de confirmación del cambio de vuelo de Copa Airlines.'
                     },
                     {
-                        'title': '¿Cómo creo una cuenta para obtener millas Copa?',
-                        'content': 'Como se indica en copaair.com, para unirse a ConnectMiles debe crear una cuenta proporcionando información personal en el sitio web de la empresa. Para ganar millas, simplemente proporcione su número ConnectMiles al reservar vuelos. Cuando realice el check-in para su vuelo, confirme que su número de ConnectMiles aparezca en su tarjeta de embarque y asegúrese de que el nombre en su tarjeta de embarque coincida con el nombre asociado con su cuenta ConnectMiles.'
+                        'title': '¿Cuánto tiempo tengo para cambiar mi vuelo en Copa Airlines?',
+                        'content': 'Si usted está planeando hacer cambios a su salida programada, puede dirigirse con el procedimiento de cambio de vuelo de Copa Airlines, pero también debe asegurarse de hacer los cambios por lo menos 2 a 3 horas antes de la salida. Para evitar pagar los cargos por cambio de vuelo de Copa, haga los cambios por lo menos 24 horas antes de su hora de vuelo. Copa Airlines no le cobrará el cargo por cambio de vuelo si usted ha hecho los cambios debido a una emergencia médica.'
                     },
                     {
-                        'title': 'Hola, tengo una pregunta. ¿Puedo preguntar cuándo llegaremos a Panamá?',
-                        'content': 'Porque nuestro vuelo fue cancelado. Fecha del vuelo 17.3.2020 número CM 505 Gracias por la respuesta.'
+                        'title': '¿Cómo cambiar un vuelo en Copa Airlines?',
+                        'content': 'Si necesita cambiar un vuelo en Copa Airlines debido a alguna emergencia, primero debe navegar por el sitio web de Copa Airlines e ingresar a su cuenta. Luego, seleccione la pestaña "Vuelos" y elija el vuelo que desea cambiar. Desde allí, seleccione la opción "Cambiar vuelo" y siga el estímulo para elegir un nuevo vuelo y pagar cualquier diferencia en la tarifa. Revise los detalles adicionales del vuelo y confirme los cambios antes de finalizar la transacción. Además, la confirmación de cambio de vuelo de Copa Airlines la obtendrá en su dispositivo registrado.'
                     },
                     {
-                        'title': '¿Puedo modificar mis billetes de avión después de la reserva?',
-                        'content': 'Sí, Alitalia le permite seleccionar y reservar su asiento durante la reserva o posteriormente a través de la sección Mis reservas de su sitio web. Puede haber una tarifa adicional por elegir ciertos asientos.',
+                        'title': '¿Cómo cambiar el vuelo de Copa Airlines por teléfono?',
+                        'content': 'Usted puede cambiar el vuelo de Copa Airlines por teléfono, y para ello, debe marcar el número de teléfono de Copa Airlines +1-786-840 COPA (2672) donde se le asignará un agente.  Sin embargo, se establecerán algunas instrucciones; tales como, presione 0 para escoger su idioma regional, presione 2 para programar su vuelo, presione 4 para cancelar su boleto, presione 6 para asistencia en el check-in, presione 9 para hablar con un agente para cambiar un vuelo, presione # para otras opciones.',
                     },
                     {
-                        'title': '¿Cómo puedo cambiar mi reserva de vuelo con Copa Airlines?',
-                        'content': 'Puedes cambiar o modificar tu reserva con Copa Airlines en línea. Para hacerlo, inicia sesión en tu sitio web oficial, ingresa tu número de reserva y apellido, y selecciona “Gestionar mi reserva”. Desde allí, puede seleccionar la opción "Cambiar vuelo" para modificar su itinerario según sea necesario.'
+                        'title': '¿Cuánto es la penalidad de Copa Airlines por cambio de vuelo?',
+                        'content': <>
+                            <p>Copa Airlines le permite cambiar su boleto de vuelo dentro de las 24 horas antes de la salida, evitar el pago de cargos y obtener el reembolso pronto. Pero usted tiene que pagar cargos como penalidad que viene bajo la política de cambio de vuelo, y usted está obligado a pagar la penalidad por cambio de vuelo de Copa Airlines de alrededor de $75 a $500 por pasajero. Este cargo se aplica tanto a los billetes de avión reembolsables como a los no reembolsables que adquiera en el sitio web de reservas de Delta Airlines.</p>
+                            <p>Compruebe también el cargo que se puede aplicar a la fecha, hora y destino del vuelo, que variará en función de la tarifa del billete y del destino. Por lo tanto, si tiene billetes de vuelo nacionales e internacionales, pague la penalización por cambio de vuelo de Copa Airlines según corresponda. Para más detalles sobre la penalidad por cambio de vuelo en Copa Airlines, contacte a una persona en vivo para resolver su inquietud.</p>
+                        </>
+                    },
+                    {
+                        'title': '¿Cuál es la política de cambio de vuelo de 24 horas de Copa Airlines?',
+                        'content': 'Según la política de cambio de vuelo en 24 horas de Copa Airlines, usted debe cambiar su vuelo dentro de las 24 horas siguientes a la reservación. Si alguien cambia el vuelo de Copa Airlines dentro de la fase de tiempo indicada, la aerolínea no impondrá ningún cargo adicional por la modificación del vuelo. Sin embargo, si la nueva reserva conlleva cargos más altos, sólo tendrá que pagar la diferencia de tarifa. Para cualquier otro tipo de ayuda, puede ponerse en contacto directamente con los funcionarios de Copa Airlines en su número de teléfono, +1-786-840 COPA (2672).'
                     }
                 ]}
             />

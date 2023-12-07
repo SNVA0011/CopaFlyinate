@@ -14,10 +14,11 @@ const ServicioAlcliente = () => {
     return (
         <>
             <PageHead
-                title="Flyinate | Servicio al Cliente"
-                description=""
-                keywords=""
+                title="Servicio al Cliente Copa Airlines | Flyinate"
+                description="Flyinate te facilita la información para ponerte en contacto con el servicio de atención al cliente de Copa Airlines a través de diferentes formularios."
+                keywords="Servicio de atención al cliente de Copa Airlines, número de teléfono de Copa Airlines, contactar con Copa Airlines, llamar a Copa Airlines, número de contacto de Copa Airlines"
             />
+
 
             <BreadHero title="Servicio al Cliente" linkhtml={<><ul className='breadcrumb text-white'>
                 <li className="breadcrumb-item" > <Link href="/">Casa</Link> </li>

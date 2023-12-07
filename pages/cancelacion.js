@@ -13,10 +13,11 @@ const Cancelacion = () => {
     return (
         <>
             <PageHead
-                title="Flyinate | Cancelación"
-                description=""
-                keywords=""
+                title='Cancelación de vuelos de Copa Airlines | Flyinate'
+                description='Obtenga toda la información sobre "Cómo cancelar su vuelo de Copa Airlines" y también lea sus últimas políticas de cancelación para proceder con el proceso.'
+                keywords='Copa Airlines cancelación de vuelo, cancelar vuelo Copa Airlines, cancelar vuelo en Copa Airlines, Copa Airlines cancelar vuelo'
             />
+
 
             <BreadHero title="Cancelación" linkhtml={<><ul className='breadcrumb text-white'>
                 <li className="breadcrumb-item" > <Link href="/">Casa</Link> </li>
@@ -89,24 +90,32 @@ const Cancelacion = () => {
                 titleTwo={`Preguntas`}
                 FaqLists={[
                     {
-                        'title': '¿Cuándo volarás de Panamá a Nassau, Bahamas?',
-                        'content': 'Según la sección de la guía de destinos de Copa Airlines, los vuelos de Panamá a Nassau deberán iniciar a partir del 7 de enero de 2021. La información detallada sobre las ofertas de vuelos está disponible en destinosguide.copaair.com/es/vuelos-de-panama-a-nassau .'
+                        'title': '¿Qué ocurre si Copa cancela mi vuelo?',
+                        'content': 'Cuándo Copa Airlines cancela sus billetes de avión por causas naturales, como lluvias torrenciales o tormentas, Standard Airways cancela sus servicios de vuelo y no ofrece ningún reembolso a los pasajeros. Sin embargo, Copa Airlines permite opciones de cambio de reservación a los viajeros sin costo adicional para las mismas rutas y clase si el vuelo es cancelado por razones no controladas. Si Copa Airlines cancela su vuelo por razones controladas, como huelgas aéreas o fallos técnicos, Copa reembolsará íntegramente a los pasajeros.'
                     },
                     {
-                        'title': '¿Cómo creo una cuenta para obtener millas Copa?',
-                        'content': 'Como se indica en copaair.com, para unirse a ConnectMiles debe crear una cuenta proporcionando información personal en el sitio web de la empresa. Para ganar millas, simplemente proporcione su número ConnectMiles al reservar vuelos. Cuando realice el check-in para su vuelo, confirme que su número de ConnectMiles aparezca en su tarjeta de embarque y asegúrese de que el nombre en su tarjeta de embarque coincida con el nombre asociado con su cuenta ConnectMiles.'
+                        'title': '¿Tiene Copa Airlines una política de cancelación de 24 horas?',
+                        'content': 'Sí, Copa Airlines tiene una política de cancelación definida de 24 horas, que le permite cancelar su vuelo dentro de las 24 horas de la reserva. Con esto, usted puede hacer uso de su reembolso total del boleto de Copa, sólo si ha hecho su cancelación dentro de las 24 horas. De lo contrario, después de 24 horas, tendrá que pagar los gastos de cancelación y la política de 24 horas de Copa Airlines no será aplicable.'
                     },
                     {
-                        'title': 'Hola, tengo una pregunta. ¿Puedo preguntar cuándo llegaremos a Panamá?',
-                        'content': 'Porque nuestro vuelo fue cancelado. Fecha del vuelo 17.3.2020 número CM 505 Gracias por la respuesta.'
+                        'title': '¿Ofrece Copa cancelación en 24 horas?',
+                        'content': 'Sí, Copa Airlines ofrece 24 horas de cancelación para sus pasajeros. Si cancela su billete dentro de las 24 horas siguientes a la reserva, la compañía aérea no le cobrará gastos de cancelación. Si desea cancelar su billete de avión de Copa Airlines, sólo tiene que visitar el sitio web estándar de la compañía aérea. A continuación, haga clic en la sección "mis viajes" e introduzca el número de referencia de la reserva y el nombre del pasajero en la casilla correspondiente. Seleccione la opción "cancelar reserva", elija la forma de pago y abone los gastos de cancelación aplicables. Una vez completado el procedimiento, la compañía aérea le enviará por correo electrónico la confirmación de la cancelación del vuelo de Copa Airlines.'
                     },
                     {
-                        'title': '¿Puedo modificar mis billetes de avión después de la reserva?',
-                        'content': 'Sí, Alitalia le permite seleccionar y reservar su asiento durante la reserva o posteriormente a través de la sección Mis reservas de su sitio web. Puede haber una tarifa adicional por elegir ciertos asientos.',
+                        'title': '¿Puedo cancelar mi vuelo de Copa Airlines dentro de 24 horas?',
+                        'content': 'Sí, definitivamente usted puede cancelar su vuelo de Copa Airlines dentro de 24 horas convenientemente. Si cancela su vuelo con Copa Airlines dentro de las 24 horas de haber hecho la reservación, entonces tiene derecho a solicitar un reembolso completo sin pagar ningún cargo extra. Si usted tiene un boleto no reembolsable, entonces usted no es elegible para tomar el importe total pagado en el momento de la reserva de acuerdo con la política de Copa Airlines.'
                     },
                     {
-                        'title': '¿Cómo puedo cambiar mi reserva de vuelo con Copa Airlines?',
-                        'content': 'Puedes cambiar o modificar tu reserva con Copa Airlines en línea. Para hacerlo, inicia sesión en tu sitio web oficial, ingresa tu número de reserva y apellido, y selecciona “Gestionar mi reserva”. Desde allí, puede seleccionar la opción "Cambiar vuelo" para modificar su itinerario según sea necesario.'
+                        'title': '¿Cómo cancelar mi vuelo de Copa Airlines?',
+                        'content': 'Los viajeros pueden llamar al servicio de atención al cliente de Copa Airlines al +1-786-840 COPA (2672) sólo entre las 5 am y las 11 pm hora local todos los días y solicitar la cancelación de los billetes de avión de Copa Airlines. Sin embargo, también puede cancelar su vuelo de Copa Airlines a través del modo en línea. Sólo tiene que visitar el sitio web estándar de Copa Airlines y hacer clic en la pestaña "Mis viajes". A continuación, introduzca su código de reserva y su apellido para cancelar su vuelo. Realiza el pago de tu cancelación y recibirás el correo de confirmación en tu ID de correo electrónico registrado.'
+                    },
+                    {
+                        'title': '¿Cuánto cuesta cancelar un vuelo con Copa Airlines?',
+                        'content': 'Para cancelar las reservas de Copa Airlines, tiene que pagar el coste de cancelación de vuelo de Copa Airlines, que variará según el tiempo restante para la salida, las políticas de cancelación y su destino. Pero aún así, si usted está viajando a cualquier destino nacional, entonces usted tiene que pagar entre 180 USD a 300 USD y para reservas internacionales 300 USD a 400 USD.'
+                    },
+                    {
+                        'title': '¿Cuál es el procedimiento para cancelar el vuelo en Copa Airlines?',
+                        'content': 'Para cancelar el vuelo en Copa Airlines, puedes comunicarte con el representante de Copa Airlines llamando al +1-786-840 COPA (2672) o utilizar su sitio web oficial. Si quieres ir con el modo en línea y conocer el proceso, a continuación, vaya a través de la opción de reserva gestionada en el sitio web de Copa Airlines y proporcionar su apellido y número de PNR. Elige la opción de cancelar reserva y menciona el motivo de la cancelación. Una vez hecho esto, deberá abonar los gastos de cancelación del vuelo de Copa Airlines.'
                     }
                 ]}
             />
