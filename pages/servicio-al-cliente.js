@@ -46,11 +46,11 @@ const ServicioAlcliente = () => {
                                                 <li key={index}>
                                                     <Link href={`tel:${item.number}`} target='_blank'>
                                                         <a className='font-weight-semibold'>
-                                                            <img src="https://flaglog.com/codes/standardized-rectangle-120px/US.png" />
+                                                        <img src={`https://flaglog.com/codes/standardized-rectangle-120px/${item.code}.png`} />
                                                             <span className="flex-grow-1">
                                                                 {item.number}
                                                             </span>
-                                                            <b>{item.city}</b>
+                                                            <b><i className="bi bi-telephone mr-2"></i> {item.city}</b>
                                                         </a>
                                                     </Link>
                                                 </li>
@@ -73,7 +73,7 @@ const ServicioAlcliente = () => {
                                                     <span className="flex-grow-1">
                                                         {item.number}
                                                     </span>
-                                                    <b>{item.city}</b>
+                                                    <b><i className="bi bi-telephone mr-2"></i> {item.city}</b>
                                                 </a>
                                             </Link>
                                         </li>

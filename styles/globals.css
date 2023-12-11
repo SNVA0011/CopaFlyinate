@@ -287,7 +287,7 @@ body .popular-destination.blogaddalist .vuelo-wrap.row {
 }
 
 .vuelo-wcol {
-    width: 50%;
+    width: 100%;
     padding: 0 8px;
 }
 .quieren-block ul img.email-is {
@@ -677,11 +677,18 @@ body .quieren-block h3.como-un-title, body .popular-destination.blogaddalist.det
     top: -1px;
 }
 .quieren-block ul b {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-weight: 300;
-    color: #919191;
+    color: #706b6b;
     margin-left: 41px;
     font-size: 13px;
+}
+.quieren-block ul b .bi{
+    font-size: 85%;
+    position: relative;
+    top: 2px;
 }
 .quieren-block ul a {
     color: #000000;
@@ -704,7 +711,7 @@ body .quieren-block h3.como-un-title, body .popular-destination.blogaddalist.det
     outline: solid 1px #a6c4e3;
 }
 .quieren-block ul a:hover b {
-    color: #748699;
+    color: #1a3652;
 }
 .quieren-block ul li, body .popular-destination.blogaddalist.details .blog-inner-box2 .quieren-block ul li {
     width: 33.33%;
@@ -714,9 +721,7 @@ body .quieren-block h3.como-un-title, body .popular-destination.blogaddalist.det
 .quieren-block ul, body .popular-destination.blogaddalist.details .blog-inner-box2 .quieren-block ul {
     margin: -8px;
 }
-.quieren-block .vuelo-wcol ul li, body .popular-destination.blogaddalist.details .blog-inner-box2 .quieren-block .vuelo-wcol ul li {
-    width: 100%;
-}
+
 body .top-title h2 span.resvtitle-2 {
     color: #085099;
 }
@@ -791,9 +796,7 @@ p.mb-2.gtinfo img {
     width: 35px;
 }
 
-.vuelo-wcol {
-    width: 100%; 
-}
+
 .accordion.siteaccordian .accordion-button{
     padding-right: 0;
 }
@@ -816,7 +819,19 @@ p.mb-2.gtinfo{
     font-size: 12px;
 }
 .quieren-block{
-    padding: 12px;
+    padding: 0;
+    border: none;
+}
+.quieren-block ul a span {
+    display: block;
+    margin: 5px 0px;
+    font-size: 105%;
+}
+.quieren-block ul b{
+    margin-left: 0;
+}
+.quieren-block ul a{
+    font-size: 14px;
 }
  .como-reservar .description{ border-left: none; padding-left: 0; margin-top: 12px; margin-bottom: 30px; }
  .como-reservar.ls p.description{
@@ -833,9 +848,11 @@ p.mb-2.gtinfo{
     top: 50%;
  }
 
-
- .quieren-block ul li, body .popular-destination.blogaddalist.details .blog-inner-box2 .quieren-block ul li{
-    width: 100%;
+ .quieren-block ul li, body .popular-destination.blogaddalist.details .blog-inner-box2 .quieren-block ul li {
+    padding: 6px;
+}
+.quieren-block ul, body .popular-destination.blogaddalist.details .blog-inner-box2 .quieren-block ul {
+    margin: -6px;
 }
  .resvtitle-1::before{left: 100%;margin-left: 10px;}
  .resvtitle-1::after{right: 100%;margin-right: 10px;}
@@ -866,4 +883,22 @@ p.mb-2.gtinfo{
  .accordion.siteaccordian .accordion-button i.bi{
     font-size: 16px;
 }
+.quieren-block ul a{
+    font-size: 13px;
+}
+.quieren-block ul img{
+    width: 24px;
+}
+.quieren-block .vuelo-wcol ul li, body .popular-destination.blogaddalist.details .blog-inner-box2 .quieren-block .vuelo-wcol ul li {
+    width: 100%;
+}
+ }
+
+ @media (max-width:400px){ 
+    .quieren-block ul a{
+        font-size: 12px;
+    }
+    .quieren-block ul img {
+        width: 20px;
+    }
  }
