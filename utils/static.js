@@ -1,8 +1,5 @@
 export const siteurl = 'https://copa-aerolineas.flyinate.com';
 
-export const ListEmailcopa = [
-    { 'title':'Enviar mensaje','city': 'Copa Airline', 'number': 'https://copa-airlines.pissedconsumer.com/sendEmail.html?group=Legal' }
-]
 export const ListTollfree = [
     { 'city': 'Aruba', 'number': '(800) 359-2672' }
 ]

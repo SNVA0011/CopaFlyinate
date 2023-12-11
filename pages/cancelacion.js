@@ -24,7 +24,7 @@ const Cancelacion = () => {
                 <li className='breadcrumb-item active' aria-current="page">Cancelación</li> </ul></>} />
 
             <section className='full-w pyblock-80 full-w'>
-                <div className='popular-destination blogaddalist details pscontent-none'>
+                <div className='popular-destination blogaddalist details pscontent-none cancel'>
                     <Container className='blog-inner-box2 content-container'>
                         <h1 className='mb-4 main-tpl text-center'>Cancelación  <img src='/images/arrow-yellow.jpg' /></h1>
                         <div className='airportbaggage-wrp'>
@@ -45,7 +45,21 @@ const Cancelacion = () => {
                                         <>Si ha comprado el vuelo a través de una agencia de viajes, puedes contactar con la agencia de viajes para cancelar el vuelo.</>
                                     ]}
                                 />
+
+                                <h3 className='como-un-vuelo mb-2 mt-4'>¿Cómo cancelar un vuelo en Copa Airlines?</h3>
+                                <p className='description'>Usted puede cancelar el vuelo de Copa Airlines a través de la llamada telefónica.  Basta con llamar a este número <Link href='tel:1786 840 2672'><a target='_blank' className='font-weight-bold'><i className="bi bi-telephone-plus"></i> 1786 840 2672</a></Link> y seguir el ivr para cancelar el vuelo fácilmente. </p>
+                                <StepUlList
+                                    listItem={[
+                                        'Puede pulsar el botón 1 para hacer una nueva reserva.',
+                                        'Pulsar el botón 2 para cambiar de vuelo',
+                                        'Pulse el botón 3 para reservar un vuelo',
+                                        'Puede obtener la información del vuelo elija el botón 5',
+                                        'Para cancelar el vuelo pulse el botón 6',
+                                        'Para hablar con el asistente elija el botón 8'
+                                    ]}
+                                />
                             </div>
+
 
                             <div className='como-reservar ls cancelar-mt-5'>
                                 <span className="resvtitle-1 de">02</span>
@@ -59,6 +73,11 @@ const Cancelacion = () => {
                                         'Tiene que llenar el formulario de reembolso, si compró boletos avion Copa Airlines en línea, en el aeropuerto, a través de la oficina de llamadas y ventas.'
                                     ]}
                                 />
+
+
+                                <h3 className='como-un-vuelo mb-2 mt-4'>¿Cómo obtener un reembolso de Copa Airlines?</h3>
+                                <p className='description'>Si usted ha comprado el vuelo de Copa Airlines unos días antes y ahora no quiere viajar debido a algunas razones. Entonces usted puede cancelar la lucha <b>y obtener un reembolso de Copa Airlines</b> en la llamada. Para conectar con el equipo de servicio al cliente de la Copa Airlines, y hablar con el asesor en este número <Link href='tel:1786 840 2672'><a target='_blank' className='font-weight-bold'><i className="bi bi-telephone-plus"></i> 1786 840 2672</a></Link> para solicitar un reembolso. Después de cancelar el vuelo obtendrá el reembolso dentro de 7,8 días hábiles en el modo de pago original.</p>
+
                             </div>
 
 

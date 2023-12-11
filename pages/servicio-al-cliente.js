@@ -37,29 +37,9 @@ const ServicioAlcliente = () => {
                             <h2 class="como-un-title kl mt-0">Números de teléfono y correos electrónicos de Copa Airlines</h2>
 
                             <div className='vuelo-wrap row'> 
-                                <div className='vuelo-wcol'>
-                                    <h3 class="como-un-vuelo mb-ops d-flex align-items-center"> 1.) Correo electrónico de Copa Airlines: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h3>
-                                    {ListEmailcopa && <ul className='steps-listcall p-0 d-flex flex-wrap'>
-                                        {ListEmailcopa.map((item, index) => {
-                                            return (
-                                                <li key={index}>
-                                                    <Link href={`mailto:${item.number}`} target='_blank'>
-                                                        <a className='font-weight-semibold'>
-                                                            <img src="/images/email.png" className='email-is' />
-                                                            <span className="flex-grow-1">
-                                                                {item.title}
-                                                            </span>
-                                                            <b>{item.city}</b>
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                            )
-                                        })}
-                                    </ul>}
-                                </div>
-
+                                
                                 <div className='vuelo-wcol'> 
-                                    <h3 class="como-un-vuelo mb-ops d-flex align-items-center"> 2.) Número gratuito: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h3>
+                                    <h3 class="como-un-vuelo mb-ops d-flex align-items-center"> 1.) Número gratuito: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h3>
                                     {ListTollfree && <ul className='steps-listcall p-0 d-flex flex-wrap'>
                                         {ListTollfree.map((item, index) => {
                                             return (
@@ -82,7 +62,7 @@ const ServicioAlcliente = () => {
                             </div>
 
 
-                            <h3 class="como-un-vuelo mb-ops d-flex align-items-center pt-3"> 3.) Ventas/Reservas: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h3>
+                            <h3 class="como-un-vuelo mb-ops d-flex align-items-center pt-3"> 2.) Ventas/Reservas: <img src="/images/arrow-yellow.jpg" className='call-arrow'></img></h3>
                             {ListSalesNumber && <ul className='steps-listcall p-0 d-flex flex-wrap'>
                                 {ListSalesNumber.map((item, index) => {
                                     return (

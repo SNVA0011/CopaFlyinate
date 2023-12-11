@@ -34,7 +34,7 @@ const BaggagePolicy = () => {
                                     <img src='/images/baggage.png' alt='baggage' className='baggage-sobre' />
                                 </div>
                                 <p className="description flex-grow-1">
-                                    Las personas que tienen su vuelo pronto y quieren saber sobre la política de Baggage de Copa Airlines. La política de <b>Copa Airlines Baggage</b> es muy amigable pero depende de su vuelo tambien en el que están volando. Hay diferentes tipos de políticas que están mencionado en el abajo y pueden leerlos.
+                                Personas que tienen su vuelo próximamente y desean conocer la política de equipaje de Copa Airlines. La política de equipaje de Copa Airlines es muy amigable pero también depende del vuelo en el que vueles. Existen diferentes tipos de políticas que se mencionan a continuación y puede leerlas.
                                 </p>
                             </div>
 
