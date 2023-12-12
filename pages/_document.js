@@ -13,21 +13,10 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
 
+          <meta name="google-site-verification" content="vqR1JrGbf_OrfNp94N1r_TRIT1BKtKucQc3fr3EagG0" />
  
-
-          {/* <!-- Google Tag Manager --> */}
-          {/* <script dangerouslySetInnerHTML={{
-            __html: ``
-          }}></script> */}
-          {/* <!-- End Google Tag Manager --> */}
         </Head>
-        <body>
-
-          {/* <!-- Google Tag Manager (noscript) --> */}
-          {/* <noscript dangerouslySetInnerHTML={{
-            __html: ``
-          }}></noscript> */}
-          {/* <!-- End Google Tag Manager (noscript) --> */}
+        <body> 
 
           <Main />
           <NextScript />
