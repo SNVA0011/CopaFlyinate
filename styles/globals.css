@@ -849,8 +849,20 @@ p.mb-2.gtinfo{
     margin: 5px 0px;
     font-size: 105%;
 }
+.quieren-block ul a{
+    position: relative;
+    height: 100%;
+}
+.quieren-block ul img{
+    position: absolute;
+    right: 1px;
+    bottom: 11px;
+    top: auto;
+}
 .quieren-block ul b{
     margin-left: 0;
+    padding-right: 30px;
+    font-size: 12px;
 }
 .quieren-block ul a{
     font-size: 14px;
