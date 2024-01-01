@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"); html{scroll-behavior:smooth}
- html body{font-family:'Jost', sans-serif;word-break:break-word;font-display:swap;    letter-spacing: 0.4px;}
+ html body{font-family:'Jost', sans-serif;word-break:break-word;font-display:swap; color: #000;   letter-spacing: 0.4px;}
  *,img{image-rendering:crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast}
  .btn,body .btn:focus,body a,body a:focus,body button,body button:focus,body input,body input:focus,body select,body select:focus,body textarea,body textarea:focus{outline:0}
  body select{cursor:pointer}
@@ -552,6 +552,19 @@ margin-top: 160px;;
     line-height: 1.8;
     border-top: solid 1px #efefef; 
 }
+.accordion.siteaccordian .accordion-body ul{
+    list-style-type: disc;
+    padding-left: 27px;
+
+}
+
+.accordion.siteaccordian .accordion-body ul li{
+margin-bottom: 9px;
+}
+.accordion.siteaccordian .accordion-body ul li:last-child{
+margin-bottom: 0;
+}
+
 
 .accordion.siteaccordian .accordion-body p:last-child,
 .accordion.siteaccordian .accordion-header {
@@ -728,6 +741,12 @@ body .quieren-block h3.como-un-title, body .popular-destination.blogaddalist.det
 body .top-title h2 span.resvtitle-2 {
     color: #085099;
 }
+.como-reservar.ls p, .ls p{
+    line-height: 1.6;
+ }
+ .font-weight-medium {
+    font-weight: 500;
+}
 
  /* media query  */ 
  @media (min-width:1200px){
@@ -837,6 +856,7 @@ p.mb-2.gtinfo{
     font-size: 14px;
 }
  .como-reservar .description{ border-left: none; padding-left: 0; margin-top: 12px; margin-bottom: 30px; }
+
  .como-reservar.ls p.description{
     padding-left: 12px;
     border-left: solid 3px #4aa366;

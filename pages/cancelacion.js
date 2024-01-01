@@ -135,9 +135,46 @@ const Cancelacion = () => {
                     {
                         'title': '¿Cuál es el procedimiento para cancelar el vuelo en Copa Airlines?',
                         'content': 'Para cancelar el vuelo en Copa Airlines, puedes comunicarte con el representante de Copa Airlines llamando al +1-786-840 COPA (2672) o utilizar su sitio web oficial. Si quieres ir con el modo en línea y conocer el proceso, a continuación, vaya a través de la opción de reserva gestionada en el sitio web de Copa Airlines y proporcionar su apellido y número de PNR. Elige la opción de cancelar reserva y menciona el motivo de la cancelación. Una vez hecho esto, deberá abonar los gastos de cancelación del vuelo de Copa Airlines.'
+                    },
+                    {
+                        "title": "¿Cómo obtener un reembolso de Copa después de la cancelación?",
+                        "content": <>
+                            <p>En caso de que una persona haya reservado recientemente un vuelo de Copa Airlines pero de repente necesite cancelar su boleto o su vuelo haya sido cancelado por la aerolínea por lo que desea obtener un reembolso de Copa Airlines en su cuenta bancaria. Entonces, en esta situación, los pasajeros pueden presentar el formulario de reembolso si han realizado la cancelación o pueden presentar un formulario de reclamo por la cancelación realizada por Copa Airlines.</p>
+                            <p className='mb-1'><strong>Pasos para obtener un reembolso de Copa Airlines</strong></p>
+                            <ul>
+                                <li>Los viajeros pueden ingresar al sitio web de Copa Airlines.</li>
+                                <li>Luego, vaya a la página "gestionar reserva" y siga los pasos indicados.</li>
+                                <li>Una vez finalizado el procedimiento de cancelación, busque el formulario de solicitud de reembolso.</li>
+                                <li>Ahora, abra el formulario y complete la reserva requerida y los datos personales.</li>
+                                <li>Luego, toque el botón "enviar formulario".</li>
+                                <li>Luego, reciba un mensaje de confirmación de Copa Airlines con respecto a su reembolso.</li>
+                            </ul>
+                        </>
+                    }, 
+                    {
+                        "title": "¿Recibo un reembolso si cancelo mi vuelo de Copa?",
+                        "content": "Sí, los pasajeros al momento de la cancelación del boleto con Copa Airlines tienen la opción de recibir reembolsos según la política porque si cancela el boleto de vuelo de Copa Airlines dentro de las 24 horas posteriores a la compra, sus reembolsos completos se revierten y, antes de esto, si opte por el reembolso por cancelación de Copa Airlines; después de 24 horas de la compra, primero pagará los cargos adicionales y luego obtendrá los reembolsos restantes como crédito de viaje."
+                    }, 
+                    {
+                        "title": "¿Puedo solicitar a Copa un reembolso en línea?",
+                        "content": "Ingresa al sitio oficial de Copa Airlines. Luego, seleccione el ícono “Mis viajes” para ingresar el número de boleto electrónico y el apellido para recuperar su boleto y la opción de boleto cancelado. Toque el botón de reembolso y deberá completar la solicitud de reembolso y describirla. Por último, seleccione el botón enviar y recibirá el correo electrónico de confirmación."
+                    }, 
+                    {
+                        "title": "¿Cómo cancelar un vuelo de Copa Airlines sin pagar?",
+                        "content": <>
+                            <p>Copa Airlines es una aerolínea que se esfuerza por brindar servicios de calidad a sus pasajeros a un precio asequible. En caso de que hayas reservado un vuelo con Copa Airlines y quieras cancelarlo por algún motivo, puedes cancelarlo y, a cambio, recibirás un reembolso completo. Sin embargo, debe seguir algunas políticas y procedimientos para cancelar un vuelo de Copa Airlines sin pagar y recibir un reembolso completo.</p>
+                            <p>Copa Airlines permite a los pasajeros cancelar sus vuelos sin pagar ninguna compensación, siempre que la reserva se haya realizado siete días antes de la fecha de salida. En caso de que la aerolínea cancele los billetes debido a malas condiciones climáticas, tienes derecho a recibir un reembolso completo.</p>
+                        </>
+                    },
+                    {
+                        "title": "¿Puedo cancelar un vuelo de Copa a través del número de teléfono?",
+                        "content": "Sí, los titulares de boletos de Copa Airlines pueden cancelar sus boletos llamando. A menudo, los clientes, después de realizar una reserva de vuelo, se encuentran con ciertas condiciones o situaciones inevitables que les obligan a cancelar su reserva. Tienen plena libertad para comunicarse con el servicio de atención al cliente de Copa Airlines y tramitar la cancelación del vuelo. Se espera que los titulares de boletos marquen el número de contacto oficial de Copa Airlines +1-786-840-2672 y continúen con las instrucciones para comunicarse con un representante que se encarga de los problemas de cancelación. Ahora deben proporcionar la información del boleto y el motivo de la cancelación para completar el proceso. El representante de Copa Airlines buscará sus reservas y cancelará su reserva."
                     }
                 ]}
             />
+
+
+
 
         </>
     )
