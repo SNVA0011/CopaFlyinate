@@ -31,7 +31,7 @@ const FaqsBlock = ({ subtitle, titleOne, titleTwo, FaqLists }) => {
                         
                         <Row className='como-reservar mt-4 mt-xl-5'>
                             <Col col={12} lg={6}>
-                                {FaqLists && <Accordion defaultActiveKey={0} className='siteaccordian'>
+                                {FaqLists && <Accordion className='siteaccordian'>
                                     {FaqLists.slice(0, FHalfArray).map((item, index) => {
                                         return (
                                             <Accordion.Item eventKey={index} key={index}>
@@ -48,7 +48,7 @@ const FaqsBlock = ({ subtitle, titleOne, titleTwo, FaqLists }) => {
                             </Col>
                             
                             <Col col={12} lg={6} className='mt-3 mt-lg-0'>
-                                {FaqLists && <Accordion defaultActiveKey={0}  className='siteaccordian'>
+                                {FaqLists && <Accordion className='siteaccordian'>
                                     {FaqLists.slice(LHalfArray, TotalArray).map((item, index) => {
                                         return (
                                             <Accordion.Item eventKey={index} key={index}>
